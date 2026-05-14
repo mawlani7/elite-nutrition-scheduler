@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm install",
+  "installCommand": "npm install",
+  "outputDirectory": ".",
+  "devCommand": "npm run dev",
+  "env": [
+    "NOTION_TOKEN",
+    "NOTION_DB_ID",
+    "IG_BUSINESS_ACCOUNT_ID",
+    "IG_ACCESS_TOKEN",
+    "INSTAGRAM_ACCOUNT_ID",
+    "YASEEN_EMAIL",
+    "EMAIL_USER",
+    "EMAIL_PASS",
+    "NOTION_CALENDAR_URL",
+    "META_BUSINESS_PORTFOLIO_ID"
+  ]
+}

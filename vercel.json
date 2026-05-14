@@ -1,6 +1,10 @@
 {
   "buildCommand": "npm install",
   "installCommand": "npm install",
-  "outputDirectory": ".",
-  "devCommand": "npm run dev"
+  "functions": {
+    "api/scheduler.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
 }
